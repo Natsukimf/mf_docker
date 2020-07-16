@@ -1,0 +1,8 @@
+plotly
+# torch
+lightgbm
+japanize-matplotlib
+pandas-profiling
+fastprogress
+optuna
+mecab-python3
