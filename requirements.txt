@@ -1,8 +1,12 @@
 plotly
-# torch
+torch
+torchvision
+transformers
 lightgbm
 japanize-matplotlib
 pandas-profiling
 fastprogress
 optuna
 mecab-python3
+streamlit
+google-cloud-bigquery

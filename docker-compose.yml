@@ -6,6 +6,6 @@ services:
       - $PWD/work:/tmp/working #カレントディレクトリのWORKをマウントしている
     working_dir: /tmp/working
     ports:
-      - 8888:8888 #Host側のポート8880とコンテナ側の8888をつないでいる
+      - 8888:8888 #Host側のポート8888(左)とコンテナ側の8888（右）をつないでいる
     command: jupyter lab --ip=0.0.0.0 --allow-root --no-browser --LabApp.token=''
 #docker-compose up --build

@@ -1,5 +1,4 @@
 FROM ubuntu:latest
-# FROM gcr.io/kaggle-images/python:v79
 
 RUN apt-get update && apt-get install -y \
     sudo \
