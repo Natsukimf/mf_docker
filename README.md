@@ -2,7 +2,7 @@
 jupyter_lab_on_docker
 
 ## これはなに
-ubuntuにAnacondaを入れたシンプル環境
+ubuntuにAnacondaを入れたシンプルな環境
 - +plotlyを使用するためnode.jsを追加
 - +NLPのためにMeCabと辞書入れている
 ## 使い方
@@ -12,4 +12,4 @@ ubuntuにAnacondaを入れたシンプル環境
 
 
 ## requirements.txt
-お好きなライブラリを入れてください
+書き換えて、お好きなライブラリを入れてください
