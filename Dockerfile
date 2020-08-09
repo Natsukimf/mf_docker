@@ -31,6 +31,9 @@ RUN curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash - \
     && sudo apt-get install -y nodejs
 RUN conda install nodejs
 RUN conda install -c conda-forge jupyterlab-plotly-extension
+#cloud sdk install https://cloud.google.com/sdk/docs/downloads-interactive?hl=ja#linux
+RUN curl https://sdk.cloud.google.com > install.sh
+RUN bash install.sh --disable-prompts
 # ライブラリの追加はよくありそうなので、下の方に書いている方がベター
 COPY requirements.txt ./
 RUN pip install -r requirements.txt
