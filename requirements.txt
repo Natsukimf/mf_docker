@@ -10,3 +10,6 @@ optuna
 mecab-python3
 streamlit
 google-cloud-bigquery
+pandas-gbq
+u8darts
+neologdn
